@@ -1,0 +1,9 @@
+server:
+  port: 8082
+spring:
+  # 邮箱配置
+  mail:
+    host: smtp.qq.com
+    username: 834147212@qq.com
+    password: kafgczueedsdbehd
+    default-encoding: UTF-8
