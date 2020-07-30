@@ -23,6 +23,8 @@ spring:
           uri: lb://lagou-service-email  # 邮件微服务
           predicates:
             - Path=/email/**
+          filters:
+            - StripPrefix=1
 # ip防暴刷配置
 limit:
   minute: 1
