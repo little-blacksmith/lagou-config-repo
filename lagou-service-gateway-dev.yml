@@ -28,4 +28,4 @@ spring:
 # ip防暴刷配置
 limit:
   minute: 1
-  count: 100
+  count: 10
